@@ -1,33 +1,15 @@
+/* This file export App to be run by index.js, initialized to run Tabs */
 import React, { Component } from 'react';
-import {
-  Platform,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import { Tabs } from './navigation/TabNavigator';
+import styles from './constants/AppStyles';
 
 export default class App extends Component {
   render() {
-    return <Tabs/>;
+    return (
+      <View style={styles.screenBackground}>
+        <Tabs />
+      </View>
+    );
   }
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-});
+};

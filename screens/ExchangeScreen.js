@@ -1,15 +1,12 @@
+/* Screen to handle the general transactions */
 import React, { Component } from 'react';
-import {
-  Platform,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
+import styles from '../constants/AppStyles';
 
 export default class ExchangeScreen extends Component {
     render() {
         return(
-            <Text>
+            <Text style={styles.text}>
                 Exchange
             </Text>
         );
