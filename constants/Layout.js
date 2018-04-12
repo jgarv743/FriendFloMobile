@@ -1,20 +1,18 @@
 /* AppStyles holds the basic styles and colors for use within the app */
 import React, { Component } from 'react';
 import { StyleSheet } from 'react-native';
-
-// Colors
-const money = '#85bb65';
+import color from './Colors';
 
 // Style sheet
 export default StyleSheet.create({
   screenBackground: {
     flex: 1,
-    backgroundColor: '#85bb65',
+    backgroundColor: color.primLight,
   },
   text: {
     fontSize: 30,
     textAlign: 'center',
     paddingTop: 200,
-    color: 'black',
+    color: color.text,
   },
 });
