@@ -8,6 +8,17 @@ import {
 import { Tabs } from './navigation/TabNavigator';
 
 export default class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+
+    }
+  }
+
+  getColors = () => {
+    
+  }
+
   render() {
     return <Tabs/>;
   }
