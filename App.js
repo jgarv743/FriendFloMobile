@@ -5,17 +5,6 @@ import { Tabs } from './navigation/TabNavigator';
 import styles from './constants/Layout';
 
 export default class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-
-    }
-  }
-
-  getColors = () => {
-    
-  }
-
   render() {
     return (
       <View style={styles.screenBackground}>
