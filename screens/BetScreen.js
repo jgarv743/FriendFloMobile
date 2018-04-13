@@ -1,15 +1,12 @@
+/* Screen to handle the betting functions of the app */
 import React, { Component } from 'react';
-import {
-  Platform,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
+import styles from '../constants/Layout';
 
 export default class BetScreen extends Component {
     render() {
         return(
-            <Text>
+            <Text style={styles.text}>
                 Bet
             </Text>
         );

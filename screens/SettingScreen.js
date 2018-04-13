@@ -1,13 +1,13 @@
-/* Screen to handle the general transactions */
+/* Screen to handle the betting functions of the app */
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import styles from '../constants/Layout';
 
-export default class ExchangeScreen extends Component {
+export default class SettingScreen extends Component {
     render() {
         return(
             <Text style={styles.text}>
-                Exchange
+                Settings
             </Text>
         );
     }
