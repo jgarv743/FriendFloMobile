@@ -8,6 +8,7 @@ import color from '../constants/Colors';
 // Import the screens here
 import Exchange from '../screens/ExchangeScreen';
 import Bet from '../screens/BetScreen';
+import Settings from '../screens/SettingScreen';
 
 // Assign screens to each tab here
 export const Tabs = TabNavigator({
@@ -17,9 +18,12 @@ export const Tabs = TabNavigator({
     Bet: {
         screen: Bet,
     },
+    Settings: {
+        screen: Settings,
+    },
 },
-    // Edit the styling of the tab bar
     {
+        // Edit the styling of the tab bar
         tabBarPosition: 'bottom',
         swipeEnabled: false,
         tabBarOptions: {
