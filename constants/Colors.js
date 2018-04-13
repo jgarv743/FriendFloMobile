@@ -6,6 +6,7 @@ let primLight;
 let primDark;
 let text;
 let accent;
+let theme = 'dark';
 
 switch( theme ) {
     // Dark theme
@@ -32,5 +33,4 @@ export default {
     primDark,
     text,
     accent,
-    theme,
 }
